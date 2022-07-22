@@ -1,6 +1,7 @@
 
-for(let i=0; i<=100; i++) {
-    let numero = i + 1;
+for(let i=0; i<100; i++) {
+    let numero = i+1;
+    
     if (numero % 3 === 0 && numero % 5 == 0) {
         numero = 'FizzBuzz';     
     } 
@@ -11,7 +12,7 @@ for(let i=0; i<=100; i++) {
         numero = 'fizz';
     }    
     else {
-        numero = i + 1;
+        numero = i+1;
     }
     console.log(numero)
 }
