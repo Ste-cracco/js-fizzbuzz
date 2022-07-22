@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #083B4C;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    font-family: Arial;
+    padding: 40px 0;
+}
+
+.griglia {
+    display: grid;
+    flex-wrap: wrap;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.cella {
+    background-color: cornflowerblue;
+    padding: 15px;
+}
