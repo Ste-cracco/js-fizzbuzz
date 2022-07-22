@@ -30,5 +30,23 @@ h1 {
 
 .cella {
     background-color: cornflowerblue;
-    padding: 15px;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: arial;
+}
+
+.multiplo_3_e_5 {
+    background-color: #F0466F;
+}
+
+.multiplo_5 {
+    background-color: #FFD166;
+}
+
+.multiplo_3 {
+    background-color: #0CD6A1;
 }
